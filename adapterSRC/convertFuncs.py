@@ -14,7 +14,7 @@ def csv2json(driveLocation):
         for rows in data:
             out.append(rows)
     with open(driveLocation[:-3]+"json", "w") as jsonOut:
-        jsonOut.write(json.dumps(data, indent=4))
+        jsonOut.write(json.dumps(out, indent=4))
 
 sys.modules[__name__] = xml2json
 
