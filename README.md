@@ -1,4 +1,7 @@
-# goop
-
-![image](https://user-images.githubusercontent.com/91497673/234936927-ca2530c0-a4f4-4413-aee0-81db653b9959.png)
+### Tim: Prototype, Adapter, Command
+To run my code you can simply just use the python interpretter or g++ for the .cpp
+```
+python3 file.py
+g++ file.cpp && ./a.out
+```
 
