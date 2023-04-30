@@ -1,3 +1,4 @@
+#include <iostream>
 class exampleObj {
     public:
         int x, y;
@@ -13,4 +14,5 @@ int main() {
     first.x = 1;
     first.y = 10;
     exampleObj second = first.clone();
+    std::cout << "first:" << first.x << first.y << " second:" << second.x << second.y << std::endl;
 }
